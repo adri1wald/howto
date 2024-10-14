@@ -1,0 +1,11 @@
+[package]
+name = "howto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+async-openai = "0.25.0"
+clap = { version = "4.5.20", features = ["derive"] }
+dirs = "5.0.1"
+tokio = { version = "1.40.0", features = ["rt", "macros", "fs"] }
