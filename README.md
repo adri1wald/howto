@@ -10,6 +10,10 @@ Arguments:
 
 Options:
   -h, --help  Print help
+
+# If you're feeling extra frisky
+
+$ howto "<action>" | sh
 ```
 
 ## Installation
