@@ -19,3 +19,14 @@ Chuck an API key in `~/.howto-cli/credentials`
 OR
 
 Set the `HOWTO_CLI_OPENAI_API_KEY` environment variable
+
+## Installation
+
+```terminal
+cargo build --release
+
+cp target/release/howto ~/.local/bin/
+
+chmod +x ~/.local/bin/howto
+```
+
